@@ -1,6 +1,6 @@
 from pandas import DataFrame
 
-from transformers import pipeline 
+from transformers import pipeline
 from GoogleNews import GoogleNews
 
 
@@ -10,7 +10,6 @@ from GoogleNews import GoogleNews
 MODEL_ID = "mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis"
 def create_classifier_pipeline():
     return pipeline("text-classification", model=MODEL_ID)
-
 
 
 
