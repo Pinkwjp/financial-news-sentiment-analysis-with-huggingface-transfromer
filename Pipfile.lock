@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b480d331f0667d7fbf5c7b1dcbfad02c15b099135a3b47f268ddb4c03c211cba"
+            "sha256": "24a42d97df4beafbb0cde361367a660dfa97cc73dce02f0ae74d5287e700e879"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -314,6 +314,14 @@
             "markers": "python_version >= '3.8'",
             "version": "==0.2.2"
         },
+        "dateparser": {
+            "hashes": [
+                "sha256:0b21ad96534e562920a0083e97fd45fa959882d4162acc358705144520a35830",
+                "sha256:7975b43a4222283e0ae15be7b4999d08c9a70e2d378ac87385b1ccf2cffbbb30"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==1.2.0"
+        },
         "debugpy": {
             "hashes": [
                 "sha256:09cc7b162586ea2171eea055985da2702b0723f6f907a423c9b2da5996ad67ba",
@@ -400,6 +408,14 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==2024.10.0"
+        },
+        "googlenews": {
+            "hashes": [
+                "sha256:9d4d8b742a9631eebc94b63cb5b36673be60e113ddcfd277c8861f9650eeab2d",
+                "sha256:e3e2a1c70c27e07efa573dbf468752b40ad45e74d2c0427280cbd1b451075f82"
+            ],
+            "index": "pypi",
+            "version": "==1.6.15"
         },
         "h11": {
             "hashes": [
@@ -1727,6 +1743,14 @@
             ],
             "markers": "python_version >= '2'",
             "version": "==2024.2"
+        },
+        "tzlocal": {
+            "hashes": [
+                "sha256:49816ef2fe65ea8ac19d19aa7a1ae0551c834303d5014c6d5a62e4cbda8047b8",
+                "sha256:8d399205578f1a9342816409cc1e46a93ebd5755e39ea2d85334bea911bf0e6e"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==5.2"
         },
         "uri-template": {
             "hashes": [
