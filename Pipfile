@@ -7,8 +7,8 @@ name = "pypi"
 pandas = "*"
 jupyterlab = "*"
 ipykernel = "*"
-transformers = "*"
 googlenews = "*"
+transformers = {extras = ["torch"], version = "*"}
 
 [dev-packages]
 
